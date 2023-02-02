@@ -16,6 +16,6 @@ Streaming API calls are authenticated through OAuth2.0 access tokens. Ask your a
 
 To connect an external system to the SFE, use the following URL:
 
-[wss://www.widgetapp.com/_stream](wss://www.widgetapp.com/_stream)
+`wss://www.widgetapp.com/_stream`
 
 External systems should listen on port 200 for messages from the Streaming API. This will include messages relating to normal WidgetApp user actions (such as `widgetApp_useraction_refresh()` and `widgetApp_useraction_edit()`) conducted over Streaming sessions.
