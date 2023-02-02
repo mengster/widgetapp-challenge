@@ -27,6 +27,10 @@ I felt that all the info on this page were relevant to readers interested in bui
 
 ## Additional notes
 
-- I was curious about the explicit connection URL in the notes (`wss://www.widgetapp.com/_stream`). Normally, a service hosted on-premises would use the customer's domain, and we would prescribe the URL pattern that devs can connect to. 
+* I was curious about the explicit connection URL in the notes (`wss://www.widgetapp.com/_stream`). Normally, a service hosted on-premises would use the customer's domain, and we would prescribe the URL pattern that devs can connect to. 
 
-- The content I've submitted here would normally be an initial draft that would go through numerous rounds of technical review. 
+* The content I've submitted here would normally be an initial draft that would go through numerous rounds of technical review. 
+
+* In general, I would also add links to existing relevant sources. For example:
+  * In [Communicating with the SFE](./wn-api.md#communicating-with-the-sfe) I would have linked to any references listing WidgetApp user actions
+  * In the [Streaming Front End (SFE)](./wn-api.md#streaming-front-end-sfe) I would also link to any existing information describing how the WFE works.
